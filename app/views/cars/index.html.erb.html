@@ -1,0 +1,16 @@
+<h1>Cars!</h1>
+
+<table>
+  <thead>
+    <td>Cars</td>
+    <td>Year</td>
+  </thead>
+  <tbody>
+    <% @cars do |car| %>
+    <tr>
+      <td><%= car.name %></td>
+      <td><%= car.year %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
