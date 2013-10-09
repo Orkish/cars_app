@@ -6,7 +6,7 @@
     <td>Year</td>
   </thead>
   <tbody>
-    <% @cars do |car| %>
+    <% @cars.each do |car| %>
     <tr>
       <td><%= car.name %></td>
       <td><%= car.year %></td>
